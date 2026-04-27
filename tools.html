@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools | Neurodivergent Framework</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">🧠 Neurodivergent AI</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html" class="active">AI Tools</a></li>
+                <li><a href="neuroscience.html">Neuroscience</a></li>
+                <li><a href="geometric-design.html">Geometric Truth</a></li>
+                <li><a href="inclusive-architecture.html">Inclusive Design</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1>🔧 Neurodivergent-AI Tool Interventions</h1>
+        
+        <div class="tools-container" id="tools-container">
+            <!-- JavaScript will populate this -->
+        </div>
+
+        <section class="cognitive-sensor">
+            <h2>📊 Cognitive Load Sensor</h2>
+            <div class="sensor-controls">
+                <label>Current Cognitive Load: 
+                    <input type="range" id="load-slider" min="0" max="100" value="40">
+                    <span id="load-value">40%</span>
+                </label>
+                <button id="predict-intervention" class="btn">Predict Best Tool</button>
+            </div>
+            <div id="prediction-result" class="prediction-card"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tools designed for cognitive coherence, not conformity</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/cognitive-load.js"></script>
+</body>
+</html>
